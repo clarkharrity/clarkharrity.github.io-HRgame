@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <step comment="false" x="457" y="183">
+            <group eventID="1" id="-1">
+                <set-xy comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <get-game-val-27 comment="false" id="2" x="0" y="0"/>
+                </set-xy>
+                <set-xy comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <get-game-val-28 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="40"/>
+                    </plus>
+                </set-xy>
+            </group>
+        </step>
+    </group>
+</groups>

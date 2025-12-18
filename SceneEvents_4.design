@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <draw comment="false" x="867" y="188">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="0" y="0">
+                    <font eid="2" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="0" y="0">
+                    <int id="0" val="You Lost"/>
+                    <int id="1" val="375"/>
+                    <int id="2" val="50"/>
+                </draw-text>
+                <set-font-new comment="false" x="0" y="0">
+                    <font eid="3" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="0" y="0">
+                    <int id="0" val="You chickened out and ran away"/>
+                    <int id="1" val="250"/>
+                    <int id="2" val="150"/>
+                </draw-text>
+                <draw-text comment="false" x="0" y="0">
+                    <int id="0" val="causing the vampire king to "/>
+                    <int id="1" val="250"/>
+                    <int id="2" val="200"/>
+                </draw-text>
+                <draw-text comment="false" x="0" y="0">
+                    <int id="0" val="derstroy the kindom"/>
+                    <int id="1" val="250"/>
+                    <int id="2" val="250"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="2" id="0">
+        <init comment="false" x="771" y="212">
+            <group eventID="2" id="-1">
+                <stop-sounds comment="false" x="0" y="0"/>
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="87" id="1"/>
+                </play-sound4>
+            </group>
+        </init>
+    </group>
+</groups>

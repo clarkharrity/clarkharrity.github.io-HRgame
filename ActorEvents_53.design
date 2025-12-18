@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="5" id="0">
+        <event-periodic comment="false" x="347" y="159">
+            <group eventID="5" id="-1">
+                <create-actor3 comment="false" x="0" y="0">
+                    <actortype eid="47" id="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                    <int id="3" val="0"/>
+                </create-actor3>
+            </group>
+            <randint comment="false" id="0" x="0" y="0">
+                <int id="0" val="4"/>
+                <int id="1" val="10"/>
+            </randint>
+        </event-periodic>
+    </group>
+    <group eventID="7" id="0">
+        <step comment="false" x="320" y="116">
+            <group eventID="7" id="-1">
+                <actors-of-type3 comment="false" x="0" y="0">
+                    <group eventID="7" id="-1">
+                        <setvel comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <to-degreesradians comment="false" id="1" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <atan2 comment="false" id="1" x="0" y="0">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <actor-of-type comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="1"/>
+                                        </get-xy>
+                                        <get-xy comment="false" id="1" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                        </get-xy>
+                                    </minus>
+                                    <minus comment="false" id="1" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <actor-of-type comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-xy>
+                                        <get-xy comment="false" id="1" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-xy>
+                                    </minus>
+                                </atan2>
+                            </to-degreesradians>
+                            <int id="2" val="2"/>
+                        </setvel>
+                        <set-dxy comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                    </group>
+                    <actortype eid="4" id="0"/>
+                </actors-of-type3>
+            </group>
+        </step>
+    </group>
+    <group eventID="8" id="0">
+        <event-collide-actortotype comment="false" x="302" y="64">
+            <group eventID="8" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="8" id="-1">
+                        <set-val-22-3 comment="false" x="0" y="0">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-22-3>
+                        <apply-filter comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <filter-negative comment="false" id="1" x="0" y="0"/>
+                        </apply-filter>
+                        <set-val-22-4 comment="false" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-val-22-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-val-22-4>
+                        <die comment="false" x="0" y="0">
+                            <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </die>
+                        <dolater comment="false" x="0" y="0">
+                            <group eventID="8" id="-1">
+                                <clear-filter comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </clear-filter>
+                                <set-val-22-3 comment="false" x="0" y="0">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-22-3>
+                            </group>
+                            <int id="0" val=".1"/>
+                        </dolater>
+                        <if comment="false" x="0" y="0">
+                            <group eventID="8" id="-1">
+                                <set-val-22-6 comment="false" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </set-val-22-6>
+                                <die comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                                <set-game-val-15 comment="false" x="0" y="0">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-game-val-15 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </minus>
+                                </set-game-val-15>
+                            </group>
+                            <lesseq comment="false" id="0" x="0" y="0">
+                                <get-val-22-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </lesseq>
+                        </if>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-22-3 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="25" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="8" id="1">
+        <set-val-22-5 comment="false" x="90" y="356">
+            <true comment="false" id="0" x="0" y="0"/>
+        </set-val-22-5>
+    </group>
+    <group eventID="8" id="-1">
+        <plus comment="false" x="300" y="441">
+            <get-val-22-6 comment="false" id="0" x="0" y="0"/>
+            <int id="1" val="1"/>
+        </plus>
+    </group>
+    <group eventID="9" id="0">
+        <init comment="false" x="318" y="72">
+            <group eventID="9" id="-1">
+                <set-val-22-4 comment="false" x="0" y="0">
+                    <int id="0" val="2"/>
+                </set-val-22-4>
+                <set-val-22-3 comment="false" x="0" y="0">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-22-3>
+            </group>
+        </init>
+    </group>
+    <group eventID="10" id="0">
+        <event-group-create-kill comment="false" x="140" y="94">
+            <group eventID="10" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="10" id="-1">
+                        <set-game-val-15 comment="false" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-game-val-15 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-game-val-15>
+                        <set-val-22-6 comment="false" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </set-val-22-6>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-22-6 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </if>
+            </group>
+            <int id="0" val="1"/>
+            <actorgroup eid="5" id="1"/>
+        </event-group-create-kill>
+    </group>
+    <group eventID="10" id="1">
+        <set-val-22-5 comment="false" x="559" y="275">
+            <false comment="false" id="0" x="0" y="0"/>
+        </set-val-22-5>
+    </group>
+    <group eventID="10" id="-1">
+        <true comment="false" x="512" y="151"/>
+        <get-val-22-5 comment="false" x="581" y="230"/>
+    </group>
+    <group eventID="11" id="0">
+        <event-actor-create-kill comment="false" x="15" y="15">
+            <group eventID="11" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="11" id="-1">
+                        <create-actor3 comment="false" x="0" y="0">
+                            <actortype eid="93" id="0"/>
+                            <get-xy comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                            <get-xy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                    </group>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <randint comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <int id="1" val="100"/>
+                        </randint>
+                        <int id="1" val="40"/>
+                    </lesseq>
+                </if>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="this" id="1"/>
+        </event-actor-create-kill>
+    </group>
+    <group eventID="12" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="12" id="-1">
+                <setanim comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="attackl"/>
+                </setanim>
+            </group>
+            <actortype eid="53" id="0"/>
+            <actortype eid="4" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="12" id="1">
+        <if comment="false" x="76" y="268">
+            <group eventID="12" id="-1"/>
+            <collision-left comment="false" id="0" x="0" y="0">
+                <int id="0" val="0"/>
+                <int id="1" val="0"/>
+            </collision-left>
+        </if>
+        <if comment="false" x="0" y="0">
+            <group eventID="12" id="-1">
+                <setanim comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="attackR"/>
+                </setanim>
+            </group>
+            <collision-right comment="false" id="0" x="0" y="0">
+                <int id="0" val="0"/>
+                <int id="1" val="0"/>
+            </collision-right>
+        </if>
+    </group>
+    <group eventID="13" id="0">
+        <event-collide-actortotype comment="false" x="302" y="64">
+            <group eventID="13" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="13" id="-1">
+                        <set-val-22-3 comment="false" x="0" y="0">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-22-3>
+                        <apply-filter comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <filter-negative comment="false" id="1" x="0" y="0"/>
+                        </apply-filter>
+                        <set-val-22-4 comment="false" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-val-22-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-val-22-4>
+                        <die comment="false" x="0" y="0">
+                            <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </die>
+                        <dolater comment="false" x="0" y="0">
+                            <group eventID="13" id="-1">
+                                <clear-filter comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </clear-filter>
+                                <set-val-22-3 comment="false" x="0" y="0">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-22-3>
+                            </group>
+                            <int id="0" val=".1"/>
+                        </dolater>
+                        <if comment="false" x="0" y="0">
+                            <group eventID="13" id="-1">
+                                <set-val-22-6 comment="false" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </set-val-22-6>
+                                <die comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                                <set-game-val-15 comment="false" x="0" y="0">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-game-val-15 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </minus>
+                                </set-game-val-15>
+                            </group>
+                            <lesseq comment="false" id="0" x="0" y="0">
+                                <get-val-22-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </lesseq>
+                        </if>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-22-3 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="23" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="13" id="1">
+        <set-val-22-5 comment="false" x="209" y="628">
+            <true comment="false" id="0" x="0" y="0"/>
+        </set-val-22-5>
+    </group>
+    <group eventID="13" id="-1">
+        <plus comment="false" x="227" y="589">
+            <get-val-22-6 comment="false" id="0" x="0" y="0"/>
+            <int id="1" val="1"/>
+        </plus>
+    </group>
+</groups>

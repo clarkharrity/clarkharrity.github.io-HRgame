@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <init comment="false" x="1091" y="302">
+            <group eventID="1" id="-1">
+                <scaleTo comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="60"/>
+                    <int id="2" val="60"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <set-dxy comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </set-dxy>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="0">
+        <event-collide-typetotype comment="false" x="428" y="283">
+            <group eventID="2" id="-1">
+                <die comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <actortype eid="41" id="0"/>
+            <actortype eid="25" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="3" id="0">
+        <event-delay comment="false" x="119" y="108">
+            <group eventID="3" id="-1">
+                <set-dxy comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </set-dxy>
+            </group>
+            <int id="0" val="9"/>
+        </event-delay>
+    </group>
+</groups>

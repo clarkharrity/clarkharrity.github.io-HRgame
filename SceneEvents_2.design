@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <step comment="false" x="790" y="146">
+            <group eventID="1" id="-1">
+                <camera-follow comment="false" x="0" y="0">
+                    <ACTOR eid="1" id="0"/>
+                </camera-follow>
+            </group>
+        </step>
+    </group>
+</groups>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <draw comment="false" x="908" y="250">
+            <group eventID="1" id="-1">
+                <stop-sounds comment="false" x="0" y="0"/>
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="97" id="1"/>
+                </play-sound4>
+                <set-font-new comment="false" x="0" y="0">
+                    <font eid="57" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="0" y="0">
+                    <int id="0" val="You Have slane the Vampire King"/>
+                    <int id="1" val="100"/>
+                    <int id="2" val="100"/>
+                </draw-text>
+                <draw-text comment="false" x="0" y="0">
+                    <int id="0" val="Saving the entire kingdom"/>
+                    <int id="1" val="100"/>
+                    <int id="2" val="150"/>
+                </draw-text>
+                <draw-text comment="false" x="0" y="0">
+                    <int id="0" val="Your name will go down in history"/>
+                    <int id="1" val="100"/>
+                    <int id="2" val="200"/>
+                </draw-text>
+                <draw-text comment="false" x="0" y="0">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="Score"/>
+                        <int id="1" val=""/>
+                    </str-combine>
+                    <int id="1" val="100"/>
+                    <int id="2" val="250"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+</groups>

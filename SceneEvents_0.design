@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <draw comment="false" x="955" y="215">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="0" y="0">
+                    <font eid="2" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="0" y="0">
+                    <int id="0" val="Hunter’s Reckoning "/>
+                    <int id="1" val="50"/>
+                    <int id="2" val="50"/>
+                </draw-text>
+                <set-font-new comment="false" x="0" y="0">
+                    <font eid="3" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="0" y="0">
+                    <int id="0" val="Press (Space) to begin"/>
+                    <int id="1" val="130"/>
+                    <int id="2" val="525"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="2" id="0">
+        <event-key-press-release comment="false" x="676" y="84">
+            <group eventID="2" id="-1">
+                <scene-change-color comment="false" x="0" y="0">
+                    <scene eid="1" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="2"/>
+                    <color b="255" g="102" id="3" r="102"/>
+                    <int id="4" val="0"/>
+                    <int id="5" val="1"/>
+                    <color b="255" g="153" id="6" r="153"/>
+                </scene-change-color>
+                <fade-sounds comment="false" x="0" y="0">
+                    <int id="0" val="1"/>
+                    <int id="1" val="3"/>
+                </fade-sounds>
+            </group>
+            <control eid="7" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="3" id="0">
+        <init comment="false" x="244" y="59">
+            <group eventID="3" id="-1">
+                <set-game-val-8 comment="false" x="0" y="0">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-8>
+            </group>
+        </init>
+    </group>
+    <group eventID="4" id="0">
+        <init comment="false" x="407" y="187">
+            <group eventID="4" id="-1">
+                <set-game-val-12 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-12>
+                <set-game-val-13 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-13>
+                <set-game-val-14 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-14>
+            </group>
+        </init>
+    </group>
+    <group eventID="5" id="0">
+        <init comment="false" x="213" y="73">
+            <group eventID="5" id="-1">
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="79" id="1"/>
+                </play-sound4>
+            </group>
+        </init>
+    </group>
+</groups>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <event-collide-typetotype comment="false" x="585" y="277">
+            <group eventID="1" id="-1">
+                <die comment="false" x="0" y="0">
+                    <first-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+                <die comment="false" x="0" y="0">
+                    <second-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+                <set-val-26-1 comment="false" x="0" y="0">
+                    <randint comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="4"/>
+                    </randint>
+                </set-val-26-1>
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <create-actor3 comment="false" x="0" y="0">
+                            <actortype eid="51" id="0"/>
+                            <get-xy comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="lastcollided" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                            <get-xy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="lastcollided" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-26-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </if>
+            </group>
+            <actortype eid="25" id="0"/>
+            <actortype eid="53" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-26-1 comment="false" x="0" y="0">
+                    <int id="0" val="3"/>
+                </set-val-26-1>
+            </group>
+        </init>
+    </group>
+</groups>

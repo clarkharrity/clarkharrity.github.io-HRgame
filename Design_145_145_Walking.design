@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <comment-short comment="false" x="0" y="0">
+                    <int id="0" val="Inputs: ----------------------"/>
+                </comment-short>
+                <comment-short comment="false" x="0" y="0">
+                    <int id="0" val="&amp;quot;On Ground?&amp;quot; -- &amp;lt;Boolean&amp;gt; Actor Level Attribute, from &amp;quot;On Ground&amp;quot; Behavior (required)"/>
+                </comment-short>
+                <comment-short comment="false" x="0" y="0">
+                    <int id="0" val="&amp;quot;Is Running?&amp;quot; -- &amp;lt;Boolean&amp;gt; Actor Level Attribute, from &amp;quot;Jumping&amp;quot; Behavior (NOT required)"/>
+                </comment-short>
+                <comment-short comment="false" x="0" y="0">
+                    <int id="0" val="&amp;quot;Is Ducking?&amp;quot; -- &amp;lt;Boolean&amp;gt; Actor Level Attribute, from &amp;quot;Ducking&amp;quot; Behavior (NOT required)"/>
+                </comment-short>
+                <comment-short comment="false" x="0" y="0">
+                    <int id="0" val="&amp;quot;Is Slope Sliding?&amp;quot; -- &amp;lt;Boolean&amp;gt; Actor Level Attribute, from &amp;quot;Slope Detection&amp;quot; Behavior (NOT required)"/>
+                </comment-short>
+                <comment-short comment="false" x="0" y="0">
+                    <int id="0" val="Outputs: ---------------------"/>
+                </comment-short>
+                <comment-short comment="false" x="0" y="0">
+                    <int id="0" val="&amp;quot;Facing Right?&amp;quot; -- &amp;lt;Boolean&amp;gt; Actor Level Attribute"/>
+                </comment-short>
+                <actor-set-prop comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Facing Right?"/>
+                    <true comment="false" id="2" x="0" y="0"/>
+                </actor-set-prop>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="0">
+        <event-custom-code comment="false" x="15" y="15">
+            <group eventID="2" id="-1"/>
+        </event-custom-code>
+    </group>
+    <group eventID="2" id="1">
+        <receiver-8-19 comment="false" x="15" y="2300">
+            <group eventID="2" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <setdx comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <times comment="false" id="1" x="0" y="0">
+                                <getdx comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </getdx>
+                                <get-byobval-178-472-1 comment="false" id="1" x="0" y="0"/>
+                            </times>
+                        </setdx>
+                    </group>
+                    <more comment="false" id="0" x="0" y="0">
+                        <abs comment="false" id="0" x="0" y="0">
+                            <getdx comment="false" id="0" x="0" y="0">
+                                <get-byobval-178-472-0 comment="false" id="0" x="0" y="0"/>
+                            </getdx>
+                        </abs>
+                        <get-val-5-4 comment="false" id="1" x="0" y="0"/>
+                    </more>
+                </if>
+            </group>
+            <get-byobval-178-472-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-178-472-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-8-19>
+    </group>
+    <group eventID="2" id="2">
+        <receiver-7-19 comment="false" x="15" y="2217">
+            <group eventID="2" id="-1">
+                <set-val-5-5 comment="false" x="0" y="0">
+                    <get-byobval-178-19-1 comment="false" id="0" x="0" y="0"/>
+                </set-val-5-5>
+            </group>
+            <get-byobval-178-19-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-178-19-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-7-19>
+    </group>
+    <group eventID="2" id="3">
+        <receiver-6-19 comment="false" x="15" y="2134">
+            <group eventID="2" id="-1">
+                <set-val-5-10 comment="false" x="0" y="0">
+                    <get-byobval-178-18-1 comment="false" id="0" x="0" y="0"/>
+                </set-val-5-10>
+            </group>
+            <get-byobval-178-18-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-178-18-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-6-19>
+    </group>
+    <group eventID="2" id="4">
+        <receiver-5-19 comment="false" x="15" y="2051">
+            <group eventID="2" id="-1">
+                <return comment="false" x="0" y="0">
+                    <get-val-5-4 comment="false" id="0" x="0" y="0"/>
+                </return>
+            </group>
+            <get-byobval-178-17-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-5-19>
+    </group>
+    <group eventID="2" id="5">
+        <receiver-4-19 comment="false" x="15" y="1968">
+            <group eventID="2" id="-1">
+                <set-val-5-4 comment="false" x="0" y="0">
+                    <get-byobval-178-16-1 comment="false" id="0" x="0" y="0"/>
+                </set-val-5-4>
+            </group>
+            <get-byobval-178-16-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-178-16-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-4-19>
+    </group>
+    <group eventID="2" id="6">
+        <receiver-3-19 comment="false" x="15" y="1885">
+            <group eventID="2" id="-1">
+                <return comment="false" x="0" y="0">
+                    <get-val-5-3 comment="false" id="0" x="0" y="0"/>
+                </return>
+            </group>
+            <get-byobval-178-15-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-3-19>
+    </group>
+    <group eventID="2" id="7">
+        <receiver-2-19 comment="false" x="15" y="1802">
+            <group eventID="2" id="-1">
+                <set-val-5-3 comment="false" x="0" y="0">
+                    <get-byobval-178-14-1 comment="false" id="0" x="0" y="0"/>
+                </set-val-5-3>
+            </group>
+            <get-byobval-178-14-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-178-14-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-2-19>
+    </group>
+    <group eventID="2" id="8">
+        <receiver-1-19 comment="false" x="15" y="1411">
+            <group eventID="2" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <if comment="false" x="0" y="0">
+                            <group eventID="2" id="-1">
+                                <setdx comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-5-4 comment="false" id="1" x="0" y="0"/>
+                                </setdx>
+                            </group>
+                            <get-val-5-5 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <return comment="false" x="0" y="0">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </return>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <as-boolean comment="false" id="0" x="0" y="0">
+                            <actor-get-prop comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="Facing Right?"/>
+                            </actor-get-prop>
+                        </as-boolean>
+                        <moreeq comment="false" id="1" x="0" y="0">
+                            <getdx comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </getdx>
+                            <get-val-5-4 comment="false" id="1" x="0" y="0"/>
+                        </moreeq>
+                    </and>
+                </if>
+                <if comment="false" x="0" y="0">
+                    <group eventID="2" id="-1">
+                        <if comment="false" x="0" y="0">
+                            <group eventID="2" id="-1">
+                                <setdx comment="false" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <neg comment="false" id="1" x="0" y="0">
+                                        <get-val-5-4 comment="false" id="0" x="0" y="0"/>
+                                    </neg>
+                                </setdx>
+                            </group>
+                            <get-val-5-5 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <return comment="false" x="0" y="0">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </return>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <as-boolean comment="false" id="0" x="0" y="0">
+                                <actor-get-prop comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="Facing Right?"/>
+                                </actor-get-prop>
+                            </as-boolean>
+                        </not>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <getdx comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </getdx>
+                            <neg comment="false" id="1" x="0" y="0">
+                                <get-val-5-4 comment="false" id="0" x="0" y="0"/>
+                            </neg>
+                        </lesseq>
+                    </and>
+                </if>
+                <return comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </return>
+            </group>
+            <get-byobval-178-11-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-1-19>
+    </group>
+</groups>

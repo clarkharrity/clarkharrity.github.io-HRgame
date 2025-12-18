@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <event-collide-typetotype comment="false" x="332" y="124">
+            <group eventID="1" id="-1">
+                <die comment="false" x="0" y="0">
+                    <first-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+                <set-game-val-1 comment="false" x="0" y="0">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="3"/>
+                    </plus>
+                </set-game-val-1>
+            </group>
+            <actortype eid="51" id="0"/>
+            <actortype eid="4" id="1"/>
+        </event-collide-typetotype>
+    </group>
+</groups>

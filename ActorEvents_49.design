@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <init comment="false" x="659" y="100">
+            <group eventID="1" id="-1">
+                <scaleTo comment="false" x="0" y="0">
+                    <ACTOR id="0"/>
+                    <int id="1" val="60"/>
+                    <int id="2" val="60"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <set-dxy comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </set-dxy>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="0">
+        <event-collide-typetotype comment="false" x="624" y="311">
+            <group eventID="2" id="-1">
+                <die comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <actortype eid="47" id="0"/>
+            <actortype eid="25" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="3" id="0">
+        <event-delay comment="false" x="89" y="86">
+            <group eventID="3" id="-1">
+                <set-dxy comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </set-dxy>
+            </group>
+            <int id="0" val="6"/>
+        </event-delay>
+    </group>
+    <group eventID="4" id="0">
+        <event-actor-create-kill comment="false" x="346" y="233">
+            <group eventID="4" id="-1">
+                <create-actor3 comment="false" x="0" y="0">
+                    <actortype eid="51" id="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                    <int id="3" val="0"/>
+                </create-actor3>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="this" id="1"/>
+        </event-actor-create-kill>
+    </group>
+    <group eventID="5" id="0">
+        <event-collide-typetotype comment="false" x="557" y="353">
+            <group eventID="5" id="-1">
+                <set-game-val-0 comment="false" x="0" y="0">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </minus>
+                </set-game-val-0>
+            </group>
+            <actortype eid="4" id="0"/>
+            <actortype eid="49" id="1"/>
+        </event-collide-typetotype>
+    </group>
+</groups>

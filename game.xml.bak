@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<game
+    accelFramerate="0"
+    androidMinVersion="5"
+    androidTargetVersion="24"
+    antialias="true"
+    appType="0"
+    atlasBindingDefault="false"
+    author=""
+    authorURL=""
+    autoRotate="false"
+    backgroundColor="-15592942"
+    barBackgroundColor="-12303292"
+    barColor="-7829368"
+    barHeight="8"
+    barLocation="0"
+    barOffsetX="0"
+    barOffsetXPhone="0"
+    barOffsetXTablet="0"
+    barOffsetY="0"
+    barOffsetYPhone="0"
+    barOffsetYTablet="0"
+    barScalePhone="1.0"
+    barScaleTablet="2.0"
+    barWidth="120"
+    bindAllAtlasesDefault="false"
+    borderColor="-12303292"
+    borderThickness="2"
+    checksum="none"
+    cws-desc="Description"
+    cws-icon128=""
+    cws-icon16=""
+    cws-name="Name"
+    cws-version="1.0"
+    defaultFramerate="60"
+    defaultProjectScale="1x"
+    defaultSceneID="0"
+    desc=""
+    desktopScale="1.5x"
+    disableBackButton="false"
+    disposeImages="false"
+    forceHiResAssets="false"
+    format="4.1.0"
+    gameid="-1"
+    haxeExtras=""
+    height="640"
+    hxcppDebugLink="false"
+    hxcppDebugger="false"
+    iosLaunchBackground="-16777216"
+    iosLaunchScaleMode="0"
+    kit="false"
+    lockURL=""
+    maxScaleAndroid="1x"
+    maxScaleDesktop="1x"
+    maxScaleIOS="1x"
+    maxScaleWeb="1x"
+    multitouch="true"
+    name="Hunters Reckoning final"
+    openflExtras=""
+    orientation="0"
+    physicsMode="0"
+    pixelsnap="false"
+    preloaderClass="com.stencyl.loader.StencylPreloader"
+    preloaderstyle="0"
+    scaleModeAndroid="0"
+    scaleModeDesktop="4"
+    scaleModeIOS="0"
+    scaleModeWeb="0"
+    simulatorOS="0.0"
+    simulatorTargetOS="0.0"
+    splashStyle="0"
+    startInFullScreenDesktop="false"
+    startInFullScreenWeb="false"
+    swfHeight="0"
+    swfWidth="0"
+    swfX="0"
+    swfY="0"
+    swfloc=""
+    telemetry="false"
+    webScale="1x"
+    width="896">
+    <keys
+        androidAlias=""
+        androidCert=""
+        androidPassword=""
+        iosTeamID=""
+        p12=""
+        p12pwd=""
+        prov-adhoc=""
+        prov-store=""/>
+    <exts/>
+    <bundles>
+        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="App Store" version="1.0.0"/>
+        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="Google Play" version="1.0.0"/>
+        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="Mac App Store" version="1.0.0"/>
+        <bundle
+            author=""
+            id="com.yourcompany.gamename"
+            internalVersion="1"
+            metroColor="-12566464"
+            name="My Game"
+            store="Windows Store"
+            version="1.0.0"/>
+    </bundles>
+    <scales>
+        <scale detailed="1x" id="0" name="1x" size="1.0"/>
+        <scale detailed="1.5x" id="1" name="1.5x" size="1.5"/>
+        <scale detailed="2x" id="2" name="2x" size="2.0"/>
+        <scale detailed="3x" id="3" name="3x" size="3.0"/>
+        <scale detailed="4x" id="4" name="4x" size="4.0"/>
+    </scales>
+    <projectScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="false" name="1.5x"/>
+        <scale enabled="false" name="2x"/>
+        <scale enabled="false" name="3x"/>
+        <scale enabled="false" name="4x"/>
+    </projectScales>
+    <webScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="false" name="1.5x"/>
+        <scale enabled="false" name="2x"/>
+        <scale enabled="false" name="3x"/>
+        <scale enabled="false" name="4x"/>
+    </webScales>
+    <desktopScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="false" name="1.5x"/>
+        <scale enabled="false" name="2x"/>
+        <scale enabled="false" name="3x"/>
+        <scale enabled="false" name="4x"/>
+    </desktopScales>
+    <iOSScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="false" name="1.5x"/>
+        <scale enabled="false" name="2x"/>
+        <scale enabled="false" name="3x"/>
+        <scale enabled="false" name="4x"/>
+    </iOSScales>
+    <androidScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="false" name="1.5x"/>
+        <scale enabled="false" name="2x"/>
+        <scale enabled="false" name="3x"/>
+        <scale enabled="false" name="4x"/>
+    </androidScales>
+    <folders/>
+    <packs/>
+    <groups>
+        <group desc="" id="4" name="arrows"/>
+        <group desc="" id="5" name="vampire"/>
+        <group desc="" id="6" name="door/gates"/>
+        <group desc="" id="7" name="lever"/>
+        <group desc="" id="8" name="arrow bundle"/>
+        <group desc="" id="9" name="bats"/>
+        <group desc="" id="10" name="backgound objects"/>
+        <group desc="" id="11" name="key"/>
+        <group desc="" id="12" name="melee "/>
+    </groups>
+    <cgroups>
+        <cgroup g1="0" g2="1"/>
+        <cgroup g1="0" g2="5"/>
+        <cgroup g1="0" g2="6"/>
+        <cgroup g1="0" g2="7"/>
+        <cgroup g1="0" g2="8"/>
+        <cgroup g1="0" g2="9"/>
+        <cgroup g1="0" g2="10"/>
+        <cgroup g1="0" g2="11"/>
+        <cgroup g1="1" g2="3"/>
+        <cgroup g1="1" g2="4"/>
+        <cgroup g1="1" g2="5"/>
+        <cgroup g1="1" g2="8"/>
+        <cgroup g1="3" g2="3"/>
+        <cgroup g1="4" g2="5"/>
+        <cgroup g1="4" g2="9"/>
+        <cgroup g1="5" g2="12"/>
+        <cgroup g1="9" g2="12"/>
+    </cgroups>
+    <input>
+        <key id="0" keyname="W" name="up" vk="87" vks="87"/>
+        <key id="1" keyname="S" name="down" vk="83" vks="83"/>
+        <key id="2" keyname="A" name="left" vk="65" vks="65"/>
+        <key id="3" keyname="D" name="right" vk="68" vks="68"/>
+        <key id="4" keyname="Z" name="action1" vk="90" vks="90"/>
+        <key id="5" keyname="X" name="action2" vk="88" vks="88"/>
+        <key id="6" keyname="ENTER" name="enter" vk="10" vks="10"/>
+        <key id="7" keyname="SPACE" name="space" vk="32" vks="32"/>
+    </input>
+    <attcats>
+        <cat id="-1" name="Default"/>
+    </attcats>
+    <props/>
+    <attributes>
+        <number cid="-1" id="0" name="Health" save="true" value="5.0"/>
+        <number cid="-1" id="1" name="ammo" save="true" value="20.0"/>
+        <number cid="-1" id="2" name="basic vampire health" save="true" value="6.0"/>
+        <boolean cid="-1" id="3" name="sign1" save="true" value="false"/>
+        <boolean cid="-1" id="4" name="sign2" save="true" value="false"/>
+        <boolean cid="-1" id="5" name="sign3" save="true" value="false"/>
+        <boolean cid="-1" id="6" name="Left of Scene entered" save="true" value="false"/>
+        <boolean cid="-1" id="8" name="Right of scene entered" save="true" value="false"/>
+        <boolean cid="-1" id="11" name="gate open" save="true" value="false"/>
+        <number cid="-1" id="12" name="tutorial pt2 vamp spaw" save="true" value="0.0"/>
+        <number cid="-1" id="13" name="level 1 pt1 vamp spawn" save="true" value="0.0"/>
+        <number cid="-1" id="14" name="gate num" save="true" value="0.0"/>
+        <number cid="-1" id="15" name="vamp counter" save="true" value="0.0"/>
+        <boolean cid="-1" id="16" name="puzzel enter right" save="true" value="false"/>
+        <boolean cid="-1" id="17" name="puzzle enter left" save="true" value="false"/>
+        <number cid="-1" id="18" name="vhealth" save="true" value="2.0"/>
+        <number cid="-1" id="19" name="gate num2" save="true" value="0.0"/>
+        <number cid="-1" id="20" name="level 2 pt 2 vamp spawn" save="true" value="0.0"/>
+        <number cid="-1" id="21" name="level 2 pt 1 vamp spawn" save="true" value="0.0"/>
+        <number cid="-1" id="22" name="gate num3" save="true" value="0.0"/>
+        <number cid="-1" id="23" name="level 1 pt2 vamp spawn" save="true" value="0.0"/>
+        <number cid="-1" id="24" name="boss vamp spawn" save="true" value="0.0"/>
+        <boolean cid="-1" id="25" name="key 2 collected" save="true" value="false"/>
+        <number cid="-1" id="26" name="gate num 3" save="true" value="0.0"/>
+        <number cid="-1" id="27" name="hunterX" save="true" value="0.0"/>
+        <number cid="-1" id="28" name="hunterY" save="true" value="0.0"/>
+        <number cid="-1" id="29" name="puzzle enter left1" save="true" value="0.0"/>
+    </attributes>
+    <collisions>
+        <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="1" name="Rect Up" pts="0.0,0.0#0.0,0.5#1.0,0.5#1.0,0.0"/>
+        <poly id="2" name="Rect Down" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="3" name="Rect Left" pts="0.0,0.0#0.0,1.0#0.5,1.0#0.5,0.0"/>
+        <poly id="4" name="Rect Right" pts="0.5,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="5" name="Tri 45R" pts="0.0,0.0#0.0,1.0#1.0,1.0"/>
+        <poly id="6" name="Tri 45L" pts="1.0,0.0#0.0,1.0#1.0,1.0"/>
+        <poly id="7" name="Tri 45R Inv" pts="0.0,0.0#0.0,1.0#1.0,0.0"/>
+        <poly id="8" name="Tri 45L Inv" pts="0.0,0.0#1.0,1.0#1.0,0.0"/>
+        <poly id="9" name="Tri 30R" pts="0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="10" name="Tri 30L" pts="0.0,0.5#0.0,1.0#1.0,1.0"/>
+        <poly id="11" name="Tri 30-2R" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="12" name="Tri 30-2L" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="13" name="Tri 30R Inv" pts="0.0,0.0#1.0,0.5#1.0,0.0"/>
+        <poly id="14" name="Tri 30L Inv" pts="0.0,0.0#0.0,0.5#1.0,0.0"/>
+        <poly id="15" name="Tri 30-2R Inv" pts="0.0,0.0#0.0,0.5#1.0,1.0#1.0,0.0"/>
+        <poly id="16" name="Tri 30-2L Inv" pts="0.0,0.0#0.0,1.0#1.0,0.5#1.0,0.0"/>
+        <poly id="17" name="Tri 60R" pts="0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="18" name="Tri 60L" pts="0.0,0.0#0.0,1.0#0.5,1.0"/>
+        <poly id="19" name="Tri 60-2R" pts="0.5,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="20" name="Tri 60-2L" pts="0.0,0.0#0.0,1.0#1.0,1.0#0.5,0.0"/>
+        <poly id="21" name="Tri 60R Inv" pts="0.5,0.0#1.0,1.0#1.0,0.0"/>
+        <poly id="22" name="Tri 60L Inv" pts="0.0,0.0#0.0,1.0#0.5,0.0"/>
+        <poly id="23" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="24" name="Tri 60-2L Inv" pts="0.0,0.0#0.0,1.0#0.5,1.0#1.0,0.0"/>
+        <poly id="25" name="corner RD" pts="0.5,0.5#0.5,1.0#0.99,1.0#0.99,0.5"/>
+        <poly id="26" name="corner LD" pts="0.0,0.5#0.0,1.0#0.5,1.0#0.5,0.5"/>
+        <poly id="27" name="tri 30l up" pts="0.0,0.0#0.0,0.5416667#1.0,0.5416667"/>
+        <poly id="28" name="tri 30R up" pts="1.0,0.0#0.0,0.5#1.0,0.5"/>
+        <poly id="29" name="thin L edge" pts="0.0,0.0#0.0,1.0#0.1,1.0#0.1,0.0"/>
+        <poly id="30" name="thin R edge" pts="0.9,0.0#0.9,1.0#1.0,1.0#1.0,0.0"/>
+    </collisions>
+    <autotileFormats/>
+    <atlases>
+        <atlas
+            allScenes="true"
+            desc=""
+            dirty="true"
+            id="0"
+            members="1,2,3,4,23,25,29,30,31,32,33,35,36,38,40,45,47,51,53,55,57,58,59,61,62,63,65,67,69,71,73,75,77,78,79,80,81,83,84,85,86,87,88,89,90,91,93,95,96,97,98"
+            name="Main Atlas"
+            pvr="false"
+            resize="0"
+            target="0"/>
+        <atlas
+            allScenes="true"
+            desc=""
+            dirty="true"
+            id="1"
+            members=""
+            name="Atlas 2"
+            pvr="false"
+            resize="0"
+            target="0"/>
+        <atlas
+            allScenes="true"
+            desc=""
+            dirty="true"
+            id="2"
+            members=""
+            name="Atlas 3"
+            pvr="false"
+            resize="0"
+            target="0"/>
+        <atlas
+            allScenes="true"
+            desc=""
+            dirty="true"
+            id="3"
+            members=""
+            name="Atlas 4"
+            pvr="false"
+            resize="0"
+            target="0"/>
+    </atlases>
+    <libraries/>
+</game>

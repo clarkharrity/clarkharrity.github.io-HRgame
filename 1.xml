@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene
+    depth="1"
+    desc=""
+    eventsnippetid="1"
+    extheight="704"
+    extwidth="960"
+    extx="-32"
+    exty="-32"
+    format="4.0.1"
+    gravx="-0.0"
+    gravy="28.0"
+    height="640"
+    id="1"
+    name="Tutorial"
+    revision=""
+    savecount="0"
+    tiled="1"
+    tileh="32"
+    tilew="32"
+    type="standard"
+    width="896">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background
+            blendMode="normal"
+            customScrollFactor="false"
+            id="1"
+            locked="true"
+            name="graveyard"
+            opacity="100"
+            order="1"
+            rid="29"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="100,168,234"
+            id="0"
+            locked="false"
+            name="Layer 0"
+            opacity="100"
+            order="0"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region
+            b="64"
+            g="64"
+            h="57"
+            id="0"
+            name="Region 0"
+            pts="4,0.0,0.0,25.0,0.0,25.0,57.0,0.0,57.0"
+            r="64"
+            type="box"
+            w="25"
+            x="78"
+            y="487"/>
+        <region
+            b="64"
+            g="64"
+            h="54"
+            id="1"
+            name="Region 1"
+            pts="4,0.0,0.0,28.0,0.0,28.0,54.0,0.0,54.0"
+            r="64"
+            type="box"
+            w="28"
+            x="204"
+            y="490"/>
+        <region
+            b="64"
+            g="64"
+            h="69"
+            id="2"
+            name="Region 2"
+            pts="4,0.0,0.0,31.0,0.0,31.0,69.0,0.0,69.0"
+            r="64"
+            type="box"
+            w="31"
+            x="510"
+            y="488"/>
+        <region
+            b="64"
+            g="64"
+            h="250"
+            id="3"
+            name="Region 3"
+            pts="4,0.0,0.0,4.0,0.0,4.0,250.0,0.0,250.0"
+            r="64"
+            type="box"
+            w="4"
+            x="891"
+            y="318"/>
+        <region
+            b="64"
+            g="64"
+            h="250"
+            id="4"
+            name="Region 4"
+            pts="4,0.0,0.0,2.0,0.0,2.0,250.0,0.0,250.0"
+            r="64"
+            type="box"
+            w="2"
+            x="0"
+            y="323"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor
+            a="0.0"
+            aid="2"
+            c="false"
+            group="3"
+            id="33"
+            name="sign1 2"
+            order="0"
+            sx="1.8"
+            sy="1.6"
+            x="75"
+            y="482"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="3"
+            c="false"
+            group="3"
+            id="33"
+            name="sign1 3"
+            order="1"
+            sx="1.8"
+            sy="1.6"
+            x="515"
+            y="481"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="4"
+            c="false"
+            group="3"
+            id="33"
+            name="sign1 4"
+            order="2"
+            sx="1.8"
+            sy="1.6"
+            x="203"
+            y="478"
+            z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="28">
+            <prop id="1" list="0" val="false"/>
+            <prop id="2" list="0" val="0.0"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="12,0.0,48.0,0.0,64.0,608.0,64.0,608.0,80.0,896.0,80.0,896.0,32.0,672.0,32.0,672.0,48.0,656.0,48.0,656.0,0.0,592.0,0.0,592.0,48.0" x="0.0" y="496.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

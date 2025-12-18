@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scenes>
+    <scene desc="" id="0" name="main menu"/>
+    <scene desc="" id="1" name="Tutorial"/>
+    <scene desc="" id="3" name="tutorial pt2"/>
+    <scene desc="" id="4" name="bad ending"/>
+    <scene desc="" id="5" name="end screen"/>
+    <scene desc="" id="6" name="death screen"/>
+    <scene desc="" id="7" name="level 1 pt1"/>
+    <scene desc="" id="8" name="level 1 pt 2"/>
+    <scene desc="" id="9" name="level 2 pt 1"/>
+    <scene desc="" id="10" name="level 2 pt 2"/>
+    <scene desc="" id="12" name="bossRoom"/>
+</scenes>

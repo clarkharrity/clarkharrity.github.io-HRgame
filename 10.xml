@@ -1,18 +1,200 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<custom-block
-    blocktag="custom-5"
-    blocktype="ACTION"
-    code=".say(&quot;Health Manager&quot;, &quot;_customBlock_Damage&quot;, []);"
-    desc="Subtracts a specific amount of health from the Actor."
-    global="false"
-    gui="Damage %0 By %1"
-    id="5"
-    message="Damage"
-    name="Damage"
-    oid="-1"
-    return="void"
-    shared="false"
-    snippetID="0">
-    <blank name="Self" order="0" type="actor"/>
-    <blank name="Amount" order="1" type="number"/>
-</custom-block>
+<scene
+    depth="1"
+    desc=""
+    eventsnippetid="42"
+    extheight="704"
+    extwidth="960"
+    extx="-32"
+    exty="-32"
+    format="4.0.1"
+    gravx="-0.0"
+    gravy="30.0"
+    height="640"
+    id="10"
+    name="level 2 pt 2"
+    revision=""
+    savecount="0"
+    tiled="1"
+    tileh="32"
+    tilew="32"
+    type="standard"
+    width="896">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background
+            blendMode="normal"
+            customScrollFactor="false"
+            id="1"
+            locked="true"
+            name="level3scene2"
+            opacity="100"
+            order="1"
+            rid="84"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+        <layer
+            blendMode="normal"
+            color="100,168,234"
+            id="0"
+            locked="false"
+            name="Layer 0"
+            opacity="100"
+            order="0"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region
+            b="64"
+            g="64"
+            h="216"
+            id="0"
+            name="Region 0"
+            pts="4,0.0,0.0,3.0,0.0,3.0,216.0,0.0,216.0"
+            r="64"
+            type="box"
+            w="3"
+            x="2"
+            y="417"/>
+        <region
+            b="64"
+            g="64"
+            h="135"
+            id="1"
+            name="Region 1"
+            pts="4,0.0,0.0,3.0,0.0,3.0,135.0,0.0,135.0"
+            r="64"
+            type="box"
+            w="3"
+            x="3"
+            y="65"/>
+        <region
+            b="64"
+            g="64"
+            h="200"
+            id="2"
+            name="Region 2"
+            pts="4,0.0,0.0,4.0,0.0,4.0,200.0,0.0,200.0"
+            r="64"
+            type="box"
+            w="4"
+            x="887"
+            y="405"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor
+            a="0.0"
+            aid="1"
+            c="false"
+            group="10"
+            id="67"
+            name="large empty book shelf 1"
+            order="0"
+            sx="2.4375"
+            sy="1.081081"
+            x="681"
+            y="471"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="2"
+            c="false"
+            group="10"
+            id="71"
+            name="1 hanging r shelf 2"
+            order="1"
+            sx="0.7866667"
+            sy="0.6969697"
+            x="383"
+            y="359"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="3"
+            c="false"
+            group="10"
+            id="63"
+            name="large book shelf 1 3"
+            order="2"
+            sx="1.2666667"
+            sy="1.0879121"
+            x="125"
+            y="353"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="4"
+            c="false"
+            group="10"
+            id="73"
+            name="1 hanging L shelf 4"
+            order="3"
+            sx="0.76"
+            sy="0.6969697"
+            x="352"
+            y="230"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="5"
+            c="false"
+            group="10"
+            id="71"
+            name="1 hanging r shelf 5"
+            order="4"
+            sx="1.48"
+            sy="0.8181818"
+            x="35"
+            y="154"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="6"
+            c="false"
+            group="10"
+            id="65"
+            name="small bookshelf 6"
+            order="5"
+            sx="1.0"
+            sy="1.0"
+            x="429"
+            y="486"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="7"
+            c="false"
+            group="6"
+            id="38"
+            name="gate 7"
+            order="6"
+            sx="1.0"
+            sy="1.0"
+            x="852"
+            y="365"
+            z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="27">
+            <prop id="1" list="0" val="0.0"/>
+            <prop id="2" list="0" val="0.0"/>
+            <prop id="3" list="0" val="-1"/>
+            <prop id="4" list="0" val="0"/>
+        </s>
+        <s enabled="true" id="28">
+            <prop id="1" list="0" val="false"/>
+            <prop id="2" list="0" val="0.0"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="4,896.0,16.0,896.0,0.0,0.0,0.0,0.0,16.0" x="0.0" y="592.0"/>
+        <p pts="4,3.0,0.0,0.0,0.0,0.0,64.0,3.0,64.0" x="893.0" y="512.0"/>
+        <p pts="4,3.0,0.0,0.0,0.0,0.0,64.0,3.0,64.0" x="0.0" y="512.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

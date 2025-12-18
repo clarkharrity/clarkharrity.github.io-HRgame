@@ -2,17 +2,17 @@
 <scene
     depth="1"
     desc=""
-    eventsnippetid="41"
+    eventsnippetid="11"
     extheight="704"
     extwidth="960"
     extx="-32"
     exty="-32"
     format="4.0.1"
     gravx="-0.0"
-    gravy="30.0"
+    gravy="28.0"
     height="640"
-    id="9"
-    name="level 2 pt 1"
+    id="3"
+    name="tutorial pt2"
     revision=""
     savecount="0"
     tiled="1"
@@ -27,10 +27,10 @@
             customScrollFactor="false"
             id="1"
             locked="true"
-            name="level3scene1"
+            name="graveyard w entrence"
             opacity="100"
             order="1"
-            rid="83"
+            rid="30"
             scrollFactorX="1.0"
             scrollFactorY="1.0"
             visible="true"/>
@@ -51,39 +51,51 @@
         <region
             b="64"
             g="64"
-            h="209"
+            h="250"
             id="0"
             name="Region 0"
-            pts="4,0.0,0.0,2.0,0.0,2.0,209.0,0.0,209.0"
+            pts="4,0.0,0.0,4.0,0.0,4.0,250.0,0.0,250.0"
             r="64"
             type="box"
-            w="2"
-            x="5"
-            y="404"/>
+            w="4"
+            x="-2"
+            y="327"/>
         <region
             b="64"
             g="64"
-            h="234"
+            h="250"
             id="1"
             name="Region 1"
-            pts="4,0.0,0.0,1.0,0.0,1.0,234.0,0.0,234.0"
+            pts="4,0.0,0.0,8.0,0.0,8.0,250.0,0.0,250.0"
             r="64"
             type="box"
-            w="1"
-            x="887"
-            y="390"/>
+            w="8"
+            x="886"
+            y="297"/>
         <region
             b="64"
             g="64"
-            h="109"
+            h="47"
             id="2"
             name="Region 2"
-            pts="4,0.0,0.0,2.0,0.0,2.0,109.0,0.0,109.0"
+            pts="4,0.0,0.0,25.0,0.0,25.0,47.0,0.0,47.0"
             r="64"
             type="box"
-            w="2"
-            x="889"
-            y="95"/>
+            w="25"
+            x="67"
+            y="488"/>
+        <region
+            b="64"
+            g="64"
+            h="70"
+            id="3"
+            name="Region 3"
+            pts="4,0.0,0.0,24.0,0.0,24.0,70.0,0.0,70.0"
+            r="64"
+            type="box"
+            w="24"
+            x="767"
+            y="476"/>
     </regions>
     <terrainRegions/>
     <actors>
@@ -91,97 +103,58 @@
             a="0.0"
             aid="1"
             c="false"
-            group="10"
-            id="71"
-            name="1 hanging r shelf 1"
+            group="6"
+            id="38"
+            name="gate 1"
             order="0"
-            sx="1.0"
-            sy="1.0"
-            x="749"
-            y="159"
+            sx="0.8604651"
+            sy="0.81889766"
+            x="848"
+            y="317"
             z="0"/>
         <actor
             a="0.0"
             aid="2"
             c="false"
-            group="10"
-            id="71"
-            name="1 hanging r shelf 2"
+            group="7"
+            id="36"
+            name="lever 2"
             order="1"
             sx="1.0"
             sy="1.0"
-            x="424"
-            y="90"
+            x="836"
+            y="439"
             z="0"/>
         <actor
             a="0.0"
             aid="3"
             c="false"
-            group="10"
-            id="75"
-            name="massive shelf 3"
+            group="3"
+            id="33"
+            name="sign1 3"
             order="2"
-            sx="1.1545454"
-            sy="1.1888889"
-            x="34"
-            y="337"
+            sx="1.4166666"
+            sy="1.3571428"
+            x="74"
+            y="485"
             z="0"/>
         <actor
             a="0.0"
             aid="4"
             c="false"
-            group="10"
-            id="65"
-            name="small bookshelf 4"
+            group="3"
+            id="33"
+            name="sign1 4"
             order="3"
-            sx="1.0"
-            sy="1.0"
-            x="679"
-            y="485"
-            z="0"/>
-        <actor
-            a="0.0"
-            aid="5"
-            c="false"
-            group="10"
-            id="65"
-            name="small bookshelf 5"
-            order="4"
-            sx="1.0"
-            sy="1.0"
-            x="344"
-            y="482"
-            z="0"/>
-        <actor
-            a="0.0"
-            aid="6"
-            c="false"
-            group="10"
-            id="63"
-            name="large book shelf 1 6"
-            order="5"
-            sx="1.0"
-            sy="1.0"
-            x="463"
-            y="349"
-            z="0"/>
-        <actor
-            a="0.0"
-            aid="12"
-            c="false"
-            group="11"
-            id="81"
-            name="key 12"
-            order="6"
-            sx="0.41935483"
-            sy="0.42424244"
-            x="430"
-            y="70"
+            sx="1.5833334"
+            sy="1.5714285"
+            x="770"
+            y="467"
             z="0"/>
     </actors>
     <snippets>
         <s enabled="true" id="27">
-            <prop id="1" list="0" val="0.0"/>
+            <prop id="1" list="0" val="2.0"/>
             <prop id="2" list="0" val="0.0"/>
             <prop id="3" list="0" val="-1"/>
             <prop id="4" list="0" val="0"/>
@@ -192,9 +165,8 @@
         </s>
     </snippets>
     <terrain>
-        <p pts="6,864.0,16.0,864.0,0.0,0.0,0.0,0.0,48.0,3.0,48.0,3.0,16.0" x="0.0" y="592.0"/>
-        <p pts="4,3.0,0.0,0.0,0.0,0.0,128.0,3.0,128.0" x="893.0" y="512.0"/>
-        <p pts="4,3.0,0.0,0.0,0.0,0.0,64.0,3.0,64.0" x="0.0" y="512.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,512.0,32.0,512.0,0.0" x="0.0" y="544.0"/>
+        <p pts="4,384.0,16.0,384.0,0.0,32.0,0.0,0.0,16.0" x="512.0" y="528.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>
